@@ -121,7 +121,7 @@ input[type="text"], input[type="email"] , textarea  {
 
 }
 
-button {
+.botonform {
     padding: 16px 50px;
     text-transform: uppercase;
     font-weight: bold;
@@ -136,11 +136,11 @@ button {
 
 }
 
-button:hover {
+.botonform:hover {
     background: #fecdd3 ;
 }
 
-button:active {
+.botonform:active {
     background: #fecdd3;
     /* box-shadow: none; quita la sombra para efecto visual de que se hunde*/
     box-shadow: -1px -1px 0   rgba(0,0,0, 0.5);
