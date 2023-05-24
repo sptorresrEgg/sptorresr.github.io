@@ -1,87 +1,62 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-      padding: 0
-  }
-  
-  body{
-      
-      background-color: #fecdd3;
-    
-  
-  }
-  body ul{
-    margin: 0;
-      padding: 0;
-  }
-  
-  .container{
-      max-width: 800px;
-      margin: auto;
-      padding: 20px;
-      
-      
-  }
-  .container nav {
-    display: flex;
-    padding: 10px;
-    height: 50px;
-    background-color: #9f1239;
-    margin: auto;
-  }
-  .brand {
-    display: flex;
-    align-items: center;
-  }
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-  }
-  li>a{
-    padding: 8px 24px;
-  }
-  li>a:hover{
-    background-color: #fecdd3;
-  }
-  li {
-    list-style-type: none;
-  }
-  a {
-    color: white;
-    text-decoration:none;
-  }
-  .nav-links {
-    display: flex;
-    align-items: center;
-  }
-  .button-menu-toggle {
-    display: none;
-  }
+  box-sizing: border-box;
+  margin: 0;
+    padding: 0
+}
 
-  .media{
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
+body{
+    
+    background-color: #fecdd3;
+  
+
 }
-.media p{
-    margin: 5px;
+body ul{
+  margin: 0;
+    padding: 0;
 }
-.media img{
-    margin: 15px;
-}
-h1{
-    text-align: center;
-    margin: 15px;
+
+.container{
+    max-width: 800px;
+    margin: auto;
     padding: 20px;
-    text-transform: uppercase;
-    color: #9f1239;
+    
+    
 }
-h2{
-    text-align: left;
-    margin: 15px;
-    padding: 20px;
-    color: #9f1239;  
+.container nav {
+  display: flex;
+  padding: 10px;
+  height: 50px;
+  background-color: #9f1239;
+  margin: auto;
+}
+.brand {
+  display: flex;
+  align-items: center;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+li>a{
+  padding: 8px 24px;
+}
+li>a:hover{
+  background-color: #fecdd3;
+}
+li {
+  list-style-type: none;
+}
+a {
+  color: white;
+  text-decoration:none;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+.button-menu-toggle {
+  display: none;
 }
 .row {
     display: flex;
@@ -92,6 +67,11 @@ h2{
   .column {
     flex: 1;
     padding: 10px;
+  }
+  .myForm{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
   }
 
   @media (max-width: 768px) {
@@ -133,15 +113,5 @@ h2{
       align-items: center;
       gap:70px;
       font-size: 40px;
-  
-  
-    
-   
-  
+    }
   }
-  }
-
-
-
-
-  
